@@ -2,6 +2,8 @@ package googlecodes;
 
 import java.util.ArrayList;
 
+//https://www.happycompiler.com/jumping/
+//https://www.geeksforgeeks.org/print-all-jumping-numbers-smaller-than-or-equal-to-a-given-value/
 public class JumpingNoInRange {
     public static void main(String[] args) {
         int jumpingNoTill = 105;
@@ -18,7 +20,7 @@ public class JumpingNoInRange {
         if (validateNo(jumpingNoTill))
             return result;
 
-        for (int i = 0; i < jumpingNoTill; i++) {
+        for (int i = 0; i <= jumpingNoTill; i++) {
             if (checkAdjacent(i))
                 result.add(i);
         }
