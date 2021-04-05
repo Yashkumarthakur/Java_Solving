@@ -1,4 +1,4 @@
-package test.goldManSTest;
+package gold_man_s;
 
 import main.goldManS.ArrayMinusOp;
 import org.junit.jupiter.api.Assertions;

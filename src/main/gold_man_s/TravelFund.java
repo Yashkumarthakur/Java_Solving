@@ -1,11 +1,10 @@
-package com.nuance.coretech;
+package gold_man_s;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A traveler is traveling form city of zeta to omega. He starts with X amount of money. Every day he spends some money and also he may work on some days to earn money. He may find good work some day and end up earning more than what he spends that day, it also may happen that he spends more than what he earns on any day. 
+ * A traveler is traveling form city of zeta to omega. He starts with X amount of money. Every day he spends some money and also he may work on some days to earn money. He may find good work some day and end up earning more than what he spends that day, it also may happen that he spends more than what he earns on any day.
  * You are given an array of integers which represents his net savings (earning expense) on any day, You need to find out minimum amount the traveler should begin with to ensure that he always have some money (>0) at the end of any day.
  * Constraints:
  * -200<=a <=200, where a, are array elements
@@ -42,23 +41,23 @@ class TravelFund {
     public static int requiredAmountAtStart(List<Integer> netSaving) {
         int eod = 0;
         int small = 0;
-        for( int money : netSaving){
-            System.out.println("today is ::" +money);
+        for (int money : netSaving) {
+            System.out.println("today is ::" + money);
             eod += money;
-            System.out.println("eod is ::" +eod);
-            if(eod<0) {
-            	if(eod<small) {
-            		small = eod;
-            	}
+            System.out.println("eod is ::" + eod);
+            if (eod < 0) {
+                if (eod < small) {
+                    small = eod;
+                }
             }
         }
-        if(small == 0)
+        if (small == 0)
             return 0;
-        return Math.abs(small)+1;
+        return Math.abs(small) + 1;
     }
 
-    public static void main(String[] args) throws IOException {
-    	List<Integer> list = new ArrayList<Integer>();
+    public static void main(String[] args) {
+        List<Integer> list = new ArrayList<Integer>();
         list.add(4);
         list.add(-5);
         list.add(4);
