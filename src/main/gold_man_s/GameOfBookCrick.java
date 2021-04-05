@@ -1,4 +1,4 @@
-package goldManS;
+package gold_man_s;
 
 import java.util.Arrays;
 

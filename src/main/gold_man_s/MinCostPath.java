@@ -1,4 +1,4 @@
-package goldManS;
+package gold_man_s;
 
 /* A Naive recursive implementation of
 MCP(Minimum Cost Path) problem 

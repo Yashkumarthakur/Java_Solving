@@ -1,4 +1,4 @@
-package goldManS;
+package gold_man_s;
 
 //https://leetcode.com/discuss/interview-question/334671/goldman-sacks-july-2019-hackerrank-2
 
