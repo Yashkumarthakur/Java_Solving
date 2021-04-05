@@ -10,21 +10,14 @@ class TravelFundTest {
 
     @Test
     void validCase() {
-        List<Integer> input = convertArrayList(new int[]{2, 3, -3});
+        List<Integer> input = convertArrayList(new ArrayList<>(Arrays.asList(2, 3, -3)));
         Assertions.assertEquals(0, TravelFund.requiredAmountAtStart(input));
     }
 
     @Test
     void validCaseWithOneIn() {
-        List<Integer> input = convertArrayList(new int[]{-1});
+        List<Integer> input = convertArrayList(new ArrayList<>(Arrays.asList(-1)));
         Assertions.assertEquals(2, TravelFund.requiredAmountAtStart(input));
     }
 
-
-    private List<Integer> convertArrayList(int[] in) {
-        ArrayList<Integer> input = new ArrayList<>();
-        for (int i : in)
-            input.add(i);
-        return input;
-    }
 }
