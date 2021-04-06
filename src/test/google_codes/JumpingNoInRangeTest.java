@@ -1,14 +1,10 @@
-package googlecodes;
+package google_codes;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.stream.IntStream;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class JumpingNoInRangeTest {
 
