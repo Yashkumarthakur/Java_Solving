@@ -68,11 +68,11 @@ public class SumOfHalfDiagonals {
         for (int i = 0; i < fetchNo; i++) {
             if (quadrant == 1)
                 sum += matrix[i][i];
-            if (quadrant == 2)
+            else if (quadrant == 2)
                 sum += matrix[i][matrix.length - 1 - i];
-            if (quadrant == 3)
+            else if (quadrant == 3)
                 sum += matrix[matrix.length - 1 - i][matrix.length - 1 - i];
-            if (quadrant == 4)
+            else if (quadrant == 4)
                 sum += matrix[matrix.length - 1 - i][i];
         }
         return (center == sum);

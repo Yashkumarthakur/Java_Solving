@@ -1,4 +1,4 @@
-package main.goldManS;
+package gold_man_s;
 
 /*Find the difference between two arrays: Two unsorted arrays are given, and you need to find (arr1 – arr2) and (arr2 – arr1). The difference between the two arrays is defined as all the elements from the first array which are not present in the second array, taking the number of occurrences into consideration.
 Example:
