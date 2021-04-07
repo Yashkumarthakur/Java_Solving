@@ -1,6 +1,5 @@
 package google_codes;
 
-import google_codes.FindSortSubArrayIndex;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
