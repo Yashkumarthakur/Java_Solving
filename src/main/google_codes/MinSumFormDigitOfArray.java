@@ -1,4 +1,4 @@
-package googlecodes;
+package google_codes;
 
 import java.util.Arrays;
 

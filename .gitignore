@@ -2,6 +2,19 @@
 ### Example user template template
 ### Example user template
 
-# IntelliJ project files
+bin/ 
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.class
+
+### IntelliJ IDEA ###
 .idea
+*.iws
+*.iml
+*.ipr
 out
