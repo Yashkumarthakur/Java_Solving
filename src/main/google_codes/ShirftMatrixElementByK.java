@@ -1,4 +1,4 @@
-package googlecodes;
+package google_codes;
 
 //Shift matrix element row wise by k
 

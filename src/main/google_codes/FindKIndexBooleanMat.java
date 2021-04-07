@@ -1,4 +1,4 @@
-package googlecodes;
+package google_codes;
 
 /**
  * Given a Boolean Matrix, find k such that all elements in k'th row are 0 and
@@ -16,7 +16,7 @@ public class FindKIndexBooleanMat {
 		System.out.println("Value of K : " + findK(matrix));
 	}
 
-	private static int findK(int[][] matrix) {
+	public static int findK(int[][] matrix) {
 
 		int row = matrix[0].length;
 		int column = matrix.length;

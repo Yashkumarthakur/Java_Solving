@@ -1,28 +1,24 @@
-package googlecodes;
+package google_codes;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import java.util.Arrays;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class FindKIndexBooleanMatTest {
 
     @Test
     void testKthValue() {
-        Assertions.assertArrayEquals(
+        Assertions.assertEquals(
                 0, FindKIndexBooleanMat.findK(new int[][]{ {1, 0, 0, 0},
                     {1, 1, 1, 0},
                     {1, 1, 0, 0},
                     {1, 1, 1, 0}}));
-        Assertions.assertArrayEquals(
+        Assertions.assertEquals(
                 1, FindKIndexBooleanMat.findK(new int[][]{{0, 1, 1, 0, 1},
                     {0, 0, 0, 0, 0},
                     {1, 1, 1, 0, 0},
                     {1, 1, 1, 1, 0},
                     {1, 1, 1, 1, 1}}));
-        Assertions.assertArrayEquals(
+        Assertions.assertEquals(
                 -1, FindKIndexBooleanMat.findK(new int[][]{{0, 1, 1, 0, 1},
                     {0, 0, 0, 0, 0},
                     {1, 1, 1, 0, 0},
