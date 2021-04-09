@@ -11,24 +11,24 @@ package google_codes;
 public class FindKIndexBooleanMat {
 	public static void main(String[] args) {
 
-		int[][] matrix = new int[][] { { 1, 0, 0, 0 }, { 1, 1, 1, 0 }, { 1, 1, 0, 0 }, { 1, 1, 1, 0 }, };
+		int[][] matrix = new int[][]{{1,0, 0, 0}, {1, 1, 1, 0}, {1, 1, 0, 0}, {1, 1, 1, 0}};
 
 		System.out.println("Value of K : " + findK(matrix));
 	}
 
 	public static int findK(int[][] matrix) {
 
-		int row = matrix[0].length;
-		int column = matrix.length;
+		int row = matrix.length;
+		int column = matrix[0].length;
 		int oneCount = 0;
 
 		for (int i = 0; i < row; i++) {
 			for (int j = 0; j < column; j++) {
-				if (matrix[i][j] == 1) {
+				if (matrix[i][j] == 1 && i!=j) {
 					oneCount++;
 				}
 			}
-			if (oneCount == 1 || oneCount == 0) { // we got single 1 or all 0 in single row
+			if (oneCount == 0) { // we got single 1 or all 0 in single row
 				// check all colm values are one for the same Kth value
 				if (checkIfKthColumnOne(row, i, matrix))
 					return i;
