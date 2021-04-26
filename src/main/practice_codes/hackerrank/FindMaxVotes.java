@@ -1,4 +1,4 @@
-package hackerrank;
+package practice_codes.hackerrank;
 
 import java.util.ArrayList;
 
@@ -24,7 +24,7 @@ public class FindMaxVotes {
         System.out.println("Max Votes for : " + maxSweet(votes));
     }
 
-	private static String maxSweet(ArrayList<String> votes) {		
+	public static String maxSweet(ArrayList<String> votes) {		
 		HashMap<String, Integer> voteCount = addSweetVoteInMap(votes);	
 		List<String> maxVotesSweet = getMaxVoteSweets(voteCount);
 		return sortAndGetMax(maxVotesSweet);
