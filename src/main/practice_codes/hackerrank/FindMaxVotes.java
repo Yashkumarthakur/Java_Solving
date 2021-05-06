@@ -15,6 +15,33 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * A potluck lunch has been organized in Pramati that is scheduled for tomorrow. I have been asked to bring in sweets..
+I couldn't decide on which sweet to bring. So I organized a Pramati poll. In this poll, each member gives name of only one sweet.
+Can you help me find out which sweet gets most Note: In case of conflict, select sweet that comes last votes in alphabetical order.
+
+e.g. Say these are votes
+
+Gulab-jamun
+Laddu
+Jalebi
+Barfi
+Laddu
+Gulab-jamun
+Gulab-jamun
+Jalebi
+Gajar-halwa
+Gajar-halwa
+Barfi
+Gajar-halwa
+
+Answer should be Gulab-jamun
+
+Explaination:
+
+Gulab-jamun and Gajar-halwa got 3 votes each which is most number of votes. But since Gulab jamun comes last in alphabetical order among top most voted sweets, Gulab-jamun should be selected.
+ *
+ */
 public class FindMaxVotes {
 
     public static void main(String[] args) {
