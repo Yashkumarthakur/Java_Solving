@@ -19,5 +19,8 @@
 * ~~Find Path of matrix with equal value of k.~~
 * Find K of 2D boolean matrix, where rows value should be 0 and column 1.
 
+**practice_codes.paytm**
+* Candy problem.
+
 **practice_codes.hackerrank**
 * Find maximum voted string.
