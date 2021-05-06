@@ -21,3 +21,6 @@
 
 **practice_codes.paytm**
 * Candy problem.
+
+**practice_codes.hackerrank**
+* Find maximum voted string.
