@@ -24,3 +24,5 @@
 
 **practice_codes.hackerrank**
 * Find maximum voted string.
+* Find count of vowel substring.
+* Find maximum profit in stock.
