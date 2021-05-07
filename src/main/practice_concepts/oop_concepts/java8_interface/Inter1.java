@@ -1,4 +1,4 @@
-package practice_concepts.java8.intrface;
+package practice_concepts.oop_concepts.java8_interface;
 
 public interface Inter1 {
 
