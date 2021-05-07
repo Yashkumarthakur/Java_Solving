@@ -21,6 +21,7 @@
 
 **practice_codes.paytm**
 * Candy problem.
+* StreetLight coverage problem.
 
 **practice_codes.hackerrank**
 * Find maximum voted string.
