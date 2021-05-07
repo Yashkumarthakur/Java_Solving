@@ -15,6 +15,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import static java.lang.System.*;
+
 /**
  * A potluck lunch has been organized in Pramati that is scheduled for tomorrow. I have been asked to bring in sweets..
 I couldn't decide on which sweet to bring. So I organized a Pramati poll. In this poll, each member gives name of only one sweet.
@@ -45,14 +47,13 @@ Gulab-jamun and Gajar-halwa got 3 votes each which is most number of votes. But 
 public class FindMaxVotes {
 
     public static void main(String[] args) {
+        ArrayList<String> votes = new ArrayList<>(Arrays.asList("Gulab-jamun","Laddu","Jalebi","Barfi","Laddu","Gulab-jamun","Gulab-jamun","Jalebi","Gajar-halwa","Gajar-halwa","Barfi","Gajar-halwa"));
 
-        ArrayList<String> votes = new ArrayList<String>(Arrays.asList("Gulab-jamun","Laddu","Jalebi","Barfi","Laddu","Gulab-jamun","Gulab-jamun","Jalebi","Gajar-halwa","Gajar-halwa","Barfi","Gajar-halwa"));
-
-        System.out.println("Max Votes for : " + maxSweet(votes));
+        out.println("Max Votes for : " + maxSweet(votes));
     }
 
-	public static String maxSweet(ArrayList<String> votes) {		
-		HashMap<String, Integer> voteCount = addSweetVoteInMap(votes);	
+	public static String maxSweet(ArrayList<String> votes) {
+		HashMap<String, Integer> voteCount = addSweetVoteInMap(votes);
 		List<String> maxVotesSweet = getMaxVoteSweets(voteCount);
 		return sortAndGetMax(maxVotesSweet);
 	}
@@ -60,44 +61,44 @@ public class FindMaxVotes {
 	private static String sortAndGetMax(List<String> maxVotesSweet) {
 		//sort using collection sort
 		Collections.sort(maxVotesSweet);
-		return maxVotesSweet.get(maxVotesSweet.size()-1);
+		return maxVotesSweet.get(0);
 	}
 
 	private static List<String> getMaxVoteSweets(HashMap<String, Integer> voteCount) {
 		return voteCount.entrySet().stream()
-				.filter(entry -> entry.getValue()==Collections.max(voteCount.values()))
+				.filter(entry -> entry.getValue().equals(Collections.max(voteCount.values())))
 				.map(Map.Entry::getKey)
 				.collect(Collectors.toList());
 	}
 
 	private static HashMap<String, Integer> addSweetVoteInMap(ArrayList<String> votes) {
-		HashMap<String, Integer> voteCount = new HashMap<String, Integer>();
-		for(int i=0; i<votes.size(); i++) {
-			String key = votes.get(i);
-			if(voteCount.containsKey(key)) {
-				voteCount.put(key, voteCount.get(key)+1);
-			} else {
-				voteCount.put(key, 1);
-			}
-		}
+        votes = votes.stream().map(String::toLowerCase).collect(Collectors.toCollection(ArrayList::new));
+		HashMap<String, Integer> voteCount = new HashMap<>();
+        for (String key : votes) {
+            if (voteCount.containsKey(key)) {
+                voteCount.put(key, voteCount.get(key) + 1);
+            } else {
+                voteCount.put(key, 1);
+            }
+        }
 		return voteCount;
 	}
 
 }
 
-/**
- * different sorting ways::
+/*
+  different sorting ways::
 
 		//sort using list
 		maxVotesSweet.sort(Comparator.comparing(String::toString));
-		
+
 		//sort string list manually
 		//Sorting the strings
 		String temp;
-        for (int i = 0; i < maxVotesSweet.size(); i++) 
+        for (int i = 0; i < maxVotesSweet.size(); i++)
         {
-            for (int j = i + 1; j < maxVotesSweet.size(); j++) { 
-                if (maxVotesSweet.get(i).compareTo(maxVotesSweet.get(j))>0) 
+            for (int j = i + 1; j < maxVotesSweet.size(); j++) {
+                if (maxVotesSweet.get(i).compareTo(maxVotesSweet.get(j))>0)
                 {
                     temp = maxVotesSweet.get(i);
                     maxVotesSweet.set(i, maxVotesSweet.get(j));
@@ -106,5 +107,5 @@ public class FindMaxVotes {
             }
         }
 
- * 
+
 */
