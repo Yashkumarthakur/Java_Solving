@@ -1,7 +1,7 @@
 # Java_Solving
 *A java problem solving code with test cases.*
 
-#### Codes Included
+### Codes Included
 **practice_codes.gold_man_s**
 * Find the diff. bet. 2 Arrays.
 * Decode the given string.
@@ -22,8 +22,25 @@
 **practice_codes.paytm**
 * Candy problem.
 * StreetLight coverage problem.
+* Print Greater element from right side of array.
 
 **practice_codes.hackerrank**
 * Find maximum voted string.
 * Find count of vowel substring.
 * Find maximum profit in stock.
+
+### Concepts Included
+**Practice_concepts.design_patterns**
+* Factory pattern.
+
+
+**Practice_concepts.oop_concepts**
+* Java8_interface.
+* OOP implementation.
+* Polymorphisms implementation.
+
+**Practice_concepts.data_structure**
+* HashMap implementation. `(In progress)`
+
+
+
