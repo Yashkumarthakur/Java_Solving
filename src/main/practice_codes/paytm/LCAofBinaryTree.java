@@ -50,7 +50,6 @@ class LCAofBinaryTree {
     }
 
 
-    // Finds the path from root node to given root of the tree.
     static int findLCA(int n1, int n2, Node root) {
         out.println("Given Tree is : " + root.toString());
         return findLCAInternal(root, n1, n2);
