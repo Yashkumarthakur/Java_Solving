@@ -30,7 +30,7 @@
 **practice_codes.hackerrank**
 * Find maximum voted string.
 * Find count of vowel substring.
-* Find maximum profit in stock.
+* Find maximum profit in stock. `Time Complexity O(nLogn)` `Space Complexity O(n+1)`
 
 ### Concepts Included
 **Practice_concepts.design_patterns**
