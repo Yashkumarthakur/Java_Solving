@@ -10,6 +10,9 @@
 * Minimum cost of path
 * Travel Fund
 
+**practice_codes.amazon**
+* Given a list of words and prefix and suffix Find the last word `Time Complexity O(n)` `Space Complexity O(1)`
+
 **practice_codes.google_codes**
 * Find sub array index to sort complete array.
 * Find Jumping numbers till range.
