@@ -1,7 +1,7 @@
 # Java_Solving
 *A java problem solving code with test cases.*
 
-#### Codes Included
+### Codes Included
 **practice_codes.gold_man_s**
 * Find the diff. bet. 2 Arrays.
 * Decode the given string.
@@ -9,6 +9,9 @@
 * Game Of Book Cricket
 * Minimum cost of path
 * Travel Fund
+
+**practice_codes.amazon**
+* Given a list of words and prefix and suffix Find the last word `Time Complexity O(n)` `Space Complexity O(1)`
 
 **practice_codes.google_codes**
 * Find sub array index to sort complete array.
@@ -22,8 +25,25 @@
 **practice_codes.paytm**
 * Candy problem.
 * StreetLight coverage problem.
+* Print Greater element from right side of array.
 
 **practice_codes.hackerrank**
 * Find maximum voted string.
 * Find count of vowel substring.
-* Find maximum profit in stock.
+* Find maximum profit in stock. `Time Complexity O(nLogn)` `Space Complexity O(n+1)`
+
+### Concepts Included
+**Practice_concepts.design_patterns**
+* Factory pattern.
+
+
+**Practice_concepts.oop_concepts**
+* Java8_interface.
+* OOP implementation.
+* Polymorphisms implementation.
+
+**Practice_concepts.data_structure**
+* HashMap implementation. `(In progress)`
+
+
+
