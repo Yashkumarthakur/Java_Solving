@@ -12,6 +12,7 @@
 
 **practice_codes.amazon**
 * Given a list of words and prefix and suffix Find the last word `Time Complexity O(n)` `Space Complexity O(1)`
+* TrappingRainWater `Time Complexity O(n)` `Space Complexity O(1)`
 
 **practice_codes.google_codes**
 * Find sub array index to sort complete array.
@@ -31,6 +32,7 @@
 * Find maximum voted string.
 * Find count of vowel substring.
 * Find maximum profit in stock. `Time Complexity O(nLogn)` `Space Complexity O(n+1)`
+* Prison Break. `Time Complexity O(n+m)` `Space Complexity O(n+m)`
 
 ### Concepts Included
 **Practice_concepts.design_patterns**
