@@ -33,7 +33,7 @@
 * Find count of vowel substring.
 * Find maximum profit in stock. `Time Complexity O(nLogn)` `Space Complexity O(n+1)`
 * Prison Break. `Time Complexity O(n+m)` `Space Complexity O(n+m)`
-* Find word count from sentence. `Time Complexity O(n)`
+* Find word count from sentence. `Time Complexity O(n)` `Space Complexity O(n)`
 * Find min math homework to be done. `Time Complexity O(n)`
 
 ### Concepts Included
