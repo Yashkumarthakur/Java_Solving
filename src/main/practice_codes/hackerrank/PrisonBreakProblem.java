@@ -10,7 +10,7 @@ import static java.lang.System.*;
  * Prison Break
  * A prisoner is planning to escape from prison!
  * The prison's gate consists of horizontal and vertical bars that are spaced one unit apart,
- * so the area of each hole between the bars is 7 x 7.
+ * so the area of each hole between the bars is 1 x 1.
  * The prisoner manages to remove certain bars to make some: bigger holes.
  * Determine the area of the largest hole in the gate after the bars are removed.
  * <p>
