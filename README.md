@@ -28,6 +28,10 @@
 * StreetLight coverage problem.
 * Print Greater element from right side of array.
 
+**practice_codes.paypal**
+* Binary number addition.`Time Complexity O(n+1)` `Space Complexity O(1+1)`
+* Design a cash register program. `Time Complexity O(log n)` `Space Complexity O(1)`
+
 **practice_codes.hackerrank**
 * Find maximum voted string.
 * Find count of vowel substring.
