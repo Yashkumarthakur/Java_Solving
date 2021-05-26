@@ -12,7 +12,12 @@
 
 **practice_codes.amazon**
 * Given a list of words and prefix and suffix Find the last word `Time Complexity O(n)` `Space Complexity O(1)`
-* TrappingRainWater `Time Complexity O(n)` `Space Complexity O(1)`
+* **TrappingRainWater** `Time Complexity O(n)` `Space Complexity O(1)`
+* Given an unsorted array which contains unique numbers, Find missing No. `Time Complexity O(n)` `Space Complexity O(1)` 
+* **FloodFillUsingRecursion** replace all connected No. in a matrix using recursion. `Time Complexity O(n)` `Space Complexity O(n)`
+* **MaxCoinGameTheory** Find maximum sum of 2 player problem using recursion. `Time Complexity O(n)` `Space Complexity O(1)`
+* **SerializeDeserializeTree** Serialize & Deserialize tree problem. `Time Complexity O(n)` `Space Complexity O(n)`
+* **StringUniqueCombinations** Find all unique combination of string problem(recursion). `Time Complexity O(n^n)` `Space Complexity O(n^n)`
 
 **practice_codes.google_codes**
 * Find sub array index to sort complete array.
@@ -29,8 +34,8 @@
 * Print Greater element from right side of array.
 
 **practice_codes.paypal**
-* Binary number addition.`Time Complexity O(n+1)` `Space Complexity O(1+1)`
-* Design a cash register program. `Time Complexity O(log n)` `Space Complexity O(1)`
+* **BinaryNumberAddition** : Binary number addition.`Time Complexity O(n+1)` `Space Complexity O(1+1)`
+* **CashRegister** : Design a cash register program. `Time Complexity O(log n)` `Space Complexity O(1)`
 
 **practice_codes.hackerrank**
 * Find maximum voted string.
