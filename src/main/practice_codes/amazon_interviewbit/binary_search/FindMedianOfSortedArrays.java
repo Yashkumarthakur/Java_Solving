@@ -1,4 +1,4 @@
-package practice_codes.gold_man_s;
+package practice_codes.amazon_interviewbit.binary_search;
 
 import java.util.Arrays;
 

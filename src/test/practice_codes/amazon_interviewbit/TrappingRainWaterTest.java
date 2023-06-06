@@ -1,4 +1,4 @@
-package practice_codes.amazon;
+package practice_codes.amazon_interviewbit;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

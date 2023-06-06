@@ -1,4 +1,4 @@
-package practice_codes.amazon;
+package practice_codes.amazon_interviewbit;
 
 
 import java.util.ArrayList;

@@ -10,7 +10,7 @@
 * Minimum cost of path
 * Travel Fund
 
-**practice_codes.amazon**
+**practice_codes.amazon_interviewbit**
 * Given a list of words and prefix and suffix Find the last word `Time Complexity O(n)` `Space Complexity O(1)`
 * **TrappingRainWater** `Time Complexity O(n)` `Space Complexity O(1)`
 * Given an unsorted array which contains unique numbers, Find missing No. `Time Complexity O(n)` `Space Complexity O(1)` 
